@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+// import FunctionComponent,{firstname,lastname} from "./components/FunctionComponent"
+// import ClassComponent from "./components/ClassComponent"
+
+// function App() {
+//   const text = 'Hello World';
+  
+//   return (
+//     <div className="App">
+//       <p> {text} </p>
+//       <FunctionComponent fname={firstname} lname={lastname}/>
+//       <ClassComponent />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// import {lastName, getFirstName, FunctionalComponent}  from "./components/FunctionComponent";
+import ClassComponent from "./components/ClassComponent";
 
 function App() {
+  // const firstName = getFirstName();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     Hello
+     {/* <FunctionalComponent fname={firstName} lname={lastName}/> */}
+     {/* <ClassComponent fname={firstName} lname={lastName}/> */}
+     <ClassComponent />
     </div>
   );
 }
